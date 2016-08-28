@@ -12,6 +12,9 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello World");
             Console.ReadLine();
+            Console.Write("what is your name?");
+            string name = Console.ReadLine();
+            Console.WriteLine("hello " + name);
         }
         
     }
